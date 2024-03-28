@@ -53,7 +53,7 @@ module KeCounties
       HASH
     end
 
-    def self.counties
+    def self.names
       HASH.keys
     end
 
@@ -71,6 +71,10 @@ module KeCounties
 
     def self.province(cty)
       HASH[cty][:province]
+    end
+
+    def self.content
+      HASH.values
     end
   end
 end
