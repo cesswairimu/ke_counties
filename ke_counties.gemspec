@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.executables =  s.files.grep(%r{^exe/}) { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rspec', '~> 3.13.0'
+  s.add_development_dependency 'rake', '~> 12.3.3'
+  s.add_development_dependency 'bundler', '~> 13.1.0'
 end
 

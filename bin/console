@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "ke_counties"
+
+require "irb"
+IRB.start
