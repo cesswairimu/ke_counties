@@ -1,5 +1,5 @@
-require 'ke_counties/version'
-require 'ke_counties/counties'
+require_relative 'ke_counties/version'
+require_relative 'ke_counties/counties'
 
 module KeCounties 
   class << self
