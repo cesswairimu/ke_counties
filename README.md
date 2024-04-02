@@ -54,3 +54,5 @@ List of counties can be found in this [gist](https://gist.github.com/cesswairimu
 ### Contributing
 
 Bugs reports and pull requests are welcome at https://github.com/cesswairimu/ke_counties
+
+RubyGems -  https://rubygems.org/gems/ke_counties
