@@ -1,10 +1,10 @@
 require_relative 'ke_counties/version'
 require_relative 'ke_counties/counties'
 
-module KeCounties 
+module KeCounties
   class << self
-    
-    def all 
+
+    def all
      counties.all
     end
 
@@ -36,11 +36,10 @@ module KeCounties
       counties.content.map{ |i| i[:abbrv]}
     end
 
-
     private
 
     def counties
       KeCounties::Counties
     end
-  end 
+  end
 end

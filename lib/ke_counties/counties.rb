@@ -58,19 +58,19 @@ module KeCounties
     end
 
     def self.code(cty)
-      HASH[cty][:code]
+      HASH.dig(cty, :code)
     end
 
     def self.abbr(cty)
-      HASH[cty][:abbrv]
+      HASH.dig(cty, :abbrv)
     end
 
     def self.capital(cty)
-      HASH[cty][:capital]
+      HASH.dig(cty, :capital)
     end
 
     def self.province(cty)
-      HASH[cty][:province]
+      HASH.dig(cty, :province)
     end
 
     def self.content
