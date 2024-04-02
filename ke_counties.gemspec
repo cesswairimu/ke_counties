@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = 'ke_counties'
   s.version     = KeCounties::VERSION
   s.summary     = 'Kenya Counties'
-  s.description = 'Collection of county codes, their names, capitals and provinces'
+  s.description = 'Collection of Kenya county names, their codes, capitals, abbreviations and provinces'
   s.authors     = ['cess']
   s.email       = 'cesswairimu@gmail.com'
   #s.files      = ["lib/ke_counties.rb"]
