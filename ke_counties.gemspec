@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_development_dependency 'rspec', '~> 3.13.0'
-  s.add_development_dependency 'rake', '~> 12.3.3'
-  s.add_development_dependency 'bundler', '~> 13.1.0'
+  s.add_development_dependency 'rake', '~> 13.2.0'
+  s.add_development_dependency 'bundler', '~> 2.5.7'
 end
 
