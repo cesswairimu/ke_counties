@@ -49,32 +49,8 @@ module KeCounties
              'Nairobi'         => { code: '047',  abbrv: 'NRB', capital: 'Nairobi',    province: 'Nairobi' }
             }.freeze
 
-    def self.all
+    def self.counties_hash
       HASH
-    end
-
-    def self.names
-      HASH.keys
-    end
-
-    def self.code(cty)
-      HASH.dig(cty, :code)
-    end
-
-    def self.abbr(cty)
-      HASH.dig(cty, :abbrv)
-    end
-
-    def self.capital(cty)
-      HASH.dig(cty, :capital)
-    end
-
-    def self.province(cty)
-      HASH.dig(cty, :province)
-    end
-
-    def self.content
-      HASH.values
     end
   end
 end

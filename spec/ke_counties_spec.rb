@@ -36,6 +36,5 @@ RSpec.describe KeCounties do
 
     it { expect(subject).to include('Uasin Gishu') }
     it { expect(subject.size).to eq(47) }
-  end
-  
+  end  
 end
