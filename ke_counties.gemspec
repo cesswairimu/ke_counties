@@ -9,10 +9,14 @@ Gem::Specification.new do |s|
   s.description = 'Collection of Kenya county names, their codes, capitals, abbreviations and provinces'
   s.authors     = ['cess']
   s.email       = 'cesswairimu@gmail.com'
-  #s.files      = ["lib/ke_counties.rb"]
   s.homepage    = 'https://github.com/cesswairimu/ke_counties'
   s.license     = 'MIT'
-   s.files      = `git ls-files -z`.split("\x0").reject do |f|
+  s.metadata = {
+    'bug_tracker_uri'   => 'https://github.com/cesswairimu/ke_counties/issues',
+    'documentation_uri' => 'https://github.com/cesswairimu/ke_counties/blob/main/README.md',
+    'source_code_uri'   => 'https://github.com/cesswairimu/ke_counties/',
+  }
+  s.files      = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
 
