@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
     'bug_tracker_uri'   => 'https://github.com/cesswairimu/ke_counties/issues',
     'documentation_uri' => 'https://github.com/cesswairimu/ke_counties/blob/main/README.md',
     'source_code_uri'   => 'https://github.com/cesswairimu/ke_counties/',
+    'homepage_uri' => 'https://github.com/cesswairimu/ke_counties'
   }
   s.files      = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
