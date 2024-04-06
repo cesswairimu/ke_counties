@@ -42,6 +42,22 @@ RSpec.describe KeCounties do
     expect(described_class.all).to be_a Hash
   end
   
-  describe 'returns specific attributes --  capital, code, apbbrv, province' do
+  describe 'returns valid specific attributes --  capital, code, apbbrv, province' do
+    
+    it 'returns a county code' do
+      expect(described_class.code('Mombasa')).to eq('001')
+    end
+
+    it 'returns a county abbrv' do
+      expect(described_class.abbr('Kisumu')).to eq('KSM')
+    end
+
+    it 'returns a county capital' do
+      expect(described_class.capital('Taita Taveta')).to eq('Wundanyi')
+    end
+
+    it 'returns a county province' do
+      expect(described_class.province('Turkana')).to eq('Rift Valley')
+    end
   end
 end
