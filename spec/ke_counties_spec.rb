@@ -36,5 +36,12 @@ RSpec.describe KeCounties do
 
     it { expect(subject).to include('Uasin Gishu') }
     it { expect(subject.size).to eq(47) }
-  end  
+  end
+  
+  it 'returns the counties hash' do
+    expect(described_class.all).to be_a Hash
+  end
+  
+  describe 'returns specific attributes --  capital, code, apbbrv, province' do
+  end
 end
