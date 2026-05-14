@@ -51,10 +51,25 @@ KeCounties.all
 ```
 
 Other methods provides are `.code`, `.abbr`, `.capital`, `.province` which returns the code, abbreviation, capital and province respectively if passed in a capitalized county name. E.g
+ <!--
+  - explan code , abrv source, province link
+ - make gist notes clear and easy to understand(titles)
+ - maybe add title keys??
+ - update ruby
+ - add dependabot
+ - refine contributing docs
+ - multi color "KeCounties.code" example
+ - refine/update ruby commands
+ - make it hacktobefest ready
 
+ 
+
+ -->
+```
 KeCounties.code('Nakuru') # returns '032'
 
 KeCounties.province('Nakuru') # returns 'Rift Valley'
+```
  <!--
   - explan code , abrv source, province link
  - make gist notes clear and easy to understand(titles)
@@ -70,9 +85,7 @@ KeCounties.province('Nakuru') # returns 'Rift Valley'
  
 
  -->
-```
 
-```
 
 List of counties can be found in this [gist](https://gist.github.com/cesswairimu/56902588ed732b1abae2d7372e01f8fc)
 
