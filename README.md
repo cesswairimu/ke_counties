@@ -1,4 +1,4 @@
-## KE COUNTIES
+## Ke Counties
 
 KeCounties is a library(ruby gem) that provides a full list of Kenya county names, their codes, abbreviations, and provinces_(popularly used regions prior to the formation of counties)_.
 
@@ -9,10 +9,8 @@ In a Gemfile:
 ```
 gem 'ke_counties'
 
-  
 ```
  
-
 <!--
 - Better syntax(refactor gem calls ( e.g Ke_counties. codes  ))
 - Upgrade lib
@@ -53,6 +51,10 @@ KeCounties.all
 ```
 
 Other methods provides are `.code`, `.abbr`, `.capital`, `.province` which returns the code, abbreviation, capital and province respectively if passed in a capitalized county name. E.g
+
+KeCounties.code('Nakuru') # returns '032'
+
+KeCounties.province('Nakuru') # returns 'Rift Valley'
  <!--
   - explan code , abrv source, province link
  - make gist notes clear and easy to understand(titles)
@@ -68,9 +70,7 @@ Other methods provides are `.code`, `.abbr`, `.capital`, `.province` which retur
 
  -->
 ```
-KeCounties.code('Nakuru') # returns '032'
 
-KeCounties.province('Nakuru') # returns 'Rift Valley'
 ```
 
 List of counties can be found in this [gist](https://gist.github.com/cesswairimu/56902588ed732b1abae2d7372e01f8fc)
@@ -84,6 +84,11 @@ List of counties can be found in this [gist](https://gist.github.com/cesswairimu
 
 ### Contributing
 
-Bugs reports and pull requests are welcome at https://github.com/cesswairimu/ke_counties
+Bugs reports and pull requests are welcome [here](https://github.com/cesswairimu/ke_counties)
 
-RubyGems -  https://rubygems.org/gems/ke_counties 
+[RubyGems link](https://rubygems.org/gems/ke_counties)
+
+<!--
+- add a contributing doc and link
+
+-->
