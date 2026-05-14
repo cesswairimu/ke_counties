@@ -1,6 +1,6 @@
 ## Ke Counties
 
-KeCounties is a library(ruby gem) that provides a full list of Kenya county names, their codes, abbreviations, and provinces_(popularly used regions prior to the formation of counties)_.
+KeCounties is a library(ruby gem) that provides a full list of Kenya county names, their codes, abbreviations, and provinces _(popularly used regions prior to the formation of counties)_.
 
 ### Installation
 
@@ -65,6 +65,7 @@ KeCounties.province('Nakuru') # returns 'Rift Valley'
  - multi color "KeCounties.code" example
  - refine/update ruby commands
  - make it hacktobefest ready
+ - link github release to ruby gems deployment
 
  
 
