@@ -1,6 +1,6 @@
-## KE COUNTIES
+## Ke Counties
 
-KeCounties is a tiny gem that provides the full list of Kenya county names, their codes, abbreviations and provinces(used popuraly used regions previously before the counties' formation).
+KeCounties is a library(ruby gem) that provides a full list of Kenya county names, their codes, abbreviations, and provinces_(popularly used regions prior to the formation of counties)_.
 
 ### Installation
 
@@ -8,7 +8,22 @@ In a Gemfile:
 
 ```
 gem 'ke_counties'
+
 ```
+ 
+<!--
+- Better syntax(refactor gem calls ( e.g Ke_counties. codes  ))
+- Upgrade lib
+
+- rubygems  -report issue direct to ne issue with template
+- provide backend code info links to export to any lang test and blog for python, Go, elixir, js)
+- #refine language(tone)
+- longer/ detailed gem readme
+-
+
+
+-->
+
 
 Globally in your machine:
 
@@ -37,11 +52,27 @@ KeCounties.all
 
 Other methods provides are `.code`, `.abbr`, `.capital`, `.province` which returns the code, abbreviation, capital and province respectively if passed in a capitalized county name. E.g
 
-```
 KeCounties.code('Nakuru') # returns '032'
 
 KeCounties.province('Nakuru') # returns 'Rift Valley'
+ <!--
+  - explan code , abrv source, province link
+ - make gist notes clear and easy to understand(titles)
+ - maybe add title keys??
+ - update ruby
+ - add dependabot
+ - refine contributing docs
+ - multi color "KeCounties.code" example
+ - refine/update ruby commands
+ - make it hacktobefest ready
+
+ 
+
+ -->
 ```
+
+```
+
 List of counties can be found in this [gist](https://gist.github.com/cesswairimu/56902588ed732b1abae2d7372e01f8fc)
 
 ### Development
@@ -53,6 +84,11 @@ List of counties can be found in this [gist](https://gist.github.com/cesswairimu
 
 ### Contributing
 
-Bugs reports and pull requests are welcome at https://github.com/cesswairimu/ke_counties
+Bugs reports and pull requests are welcome [here](https://github.com/cesswairimu/ke_counties)
 
-RubyGems -  https://rubygems.org/gems/ke_counties
+[RubyGems link](https://rubygems.org/gems/ke_counties)
+
+<!--
+- add a contributing doc and link
+
+-->
