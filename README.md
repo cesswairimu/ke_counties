@@ -51,6 +51,10 @@ KeCounties.all
 ```
 
 Other methods provides are `.code`, `.abbr`, `.capital`, `.province` which returns the code, abbreviation, capital and province respectively if passed in a capitalized county name. E.g
+
+KeCounties.code('Nakuru') # returns '032'
+
+KeCounties.province('Nakuru') # returns 'Rift Valley'
  <!--
   - explan code , abrv source, province link
  - make gist notes clear and easy to understand(titles)
@@ -66,9 +70,7 @@ Other methods provides are `.code`, `.abbr`, `.capital`, `.province` which retur
 
  -->
 ```
-KeCounties.code('Nakuru') # returns '032'
 
-KeCounties.province('Nakuru') # returns 'Rift Valley'
 ```
  <!--
   - explan code , abrv source, province link
